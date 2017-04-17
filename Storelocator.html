@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+<title>Home Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="mobile.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script src="main.js"></script>
+</head>
+<body>
+<main>
+
+<header>
+<div class="centermenu">
+<div id="menubtn" onclick="Showmenu()"></div>
+			<nav>
+						<ul id="DesktopM">
+			  <li id="logoM"><img src="logo.jpg" alt="company logo"></li>
+  <li class="menuitems"><a href="Index.html">Home</a></li>
+  <li class="menuitems"><a href="Blog.html">Blog</a></li>
+  <li class="menuitems"><a href="Emag.html">E-magazine</a></li>
+  <li class="menuitems"><a href="Storelocator.html">Our Stores</a></li>
+</ul>
+			<ul id="Mmenu">
+			  <li id="logoM"><img src="logo.jpg" alt="company logo"></li>
+  <li class="menuitems"><a href="Index.html">Home</a></li>
+  <li class="menuitems"><a href="Blog.html">Blog</a></li>
+  <li class="menuitems"><a href="Emag.html">E-magazine</a></li>
+  <li class="menuitems"><a href="Storelocator.html">Our Stores</a></li>
+</ul>
+</nav>
+
+
+</div>
+</header>
+<div id="MapContent">
+<img src="https://openclipart.org/download/233062/CompassRose.svg"id="compass" height="50" width="50">
+
+<div class="Stores">
+56 Lambert Rd, Uttoxeter, ST14 7QG
+</div>
+<div class="Stores">
+20 Marina Rd, Stoke-on-Trent, ST4 5PG
+</div>
+<div class="Stores">
+146 Davenport Ave, Crewe, CW2 6LT
+</div>
+<div id="map"></div>
+</div>
+</main>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD8sF4AYnJhYlNeuykyMGElj1sX5DscLI&callback=initMap"
+
+  type="text/javascript">
+
+  </script>
+
+</body>
+</html>

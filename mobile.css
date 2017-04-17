@@ -1,0 +1,651 @@
+@media screen and (max-device-width:480px) {
+header{
+position:static;
+background-color: black;
+box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+height:335px;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    background-attachment: scroll;
+    background-color: rgb(144, 144, 144);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+}
+
+
+.centermenu{
+margin-right: auto;
+margin-left: auto;	
+max-width:100%;
+}
+
+
+main{
+	position: relative;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0px;
+    background-color: white;
+    font-family: "myfont";
+	}
+
+	#logoM{
+    zoom: 3.9;
+    background-color: black;
+    width: 100%;		
+	}
+
+#menubtn{
+	visibility:visible;
+	margin-left:88%;
+	zoom:3.0;
+}
+
+#menu{
+  width:100%;
+  margin-top: -7px;
+  position:relative;
+  text-align: -webkit-center;	
+}
+
+.menuitems{
+width:100%;
+font-size: 3em;	
+}
+
+#Honda15{
+	position:relative;
+margin-left:2%;
+border: 3px solid black;
+width:906px; 
+height:551px	
+}
+
+#Phototext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 3.1em;
+}
+
+#DesktopM{
+display:none;	
+}
+
+#Mmenu {
+margin-bottom:2%;
+}
+
+#TilePosition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+#box{
+	margin-bottom: 5%;
+	height: 10%;
+    height: 1260px;
+    width: 797px;	
+}
+.MotoImg {
+    border: 1px solid black;
+    margin: 1px;
+    height: 420px;
+    padding: 9%;
+}
+
+.Mtext{
+    font-size: 3.5em;	
+}
+
+#MotoPic{
+height:451px;
+width:645px;	
+}
+
+.MH1Text{
+font-size: 7em;	
+}
+
+.PMText{
+	font-size: 2em;	
+}
+
+#formBox {
+    zoom: 3.0;
+}
+
+
+#EmagpText{
+	font-size: 1.2em;	
+}
+
+#Infobox {
+    font-size: 18px;
+    line-height: 19px;
+    margin-top: 20px;
+    margin-left: 2%;
+    padding: 5px 2%;
+    width: 92%;
+    height: 90%;
+}
+
+#PicM {
+    max-width: 100%;
+    margin-bottom: 3%;
+    height: 678px;
+    width: 900px;
+}
+
+.Details{
+font-size:1.3em		
+}
+
+#required{
+font-size:1.5em;	
+}
+
+#email{
+margin-left:10%;	
+}
+
+#phoneno{
+    margin-left: 3%;	
+}
+
+.NewsletterStyle{
+font-size:1.35em;	
+}
+
+#choices{
+font-size:1.23em;	
+}
+
+#submit{
+font-size:1.3em;
+}
+
+#compass{
+    border: 2px solid red;
+    border-radius: 20%;
+    width:200px;
+	height:200px;	
+}
+
+.Stores {
+    width: 76%;
+    padding: 10%;
+    font-size: 4.2em;
+}
+
+#map{
+    width: 95%;
+    height: 500px;	
+}
+
+#MapContent{
+margin-top: 5%;	
+}
+
+
+
+}
+
+@media screen and (min-device-width:500px) and (max-device-width: 640px) {
+
+header{
+position:static;
+background-color: black;
+box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+height:98px;
+width: 105%;
+}
+
+.centermenu {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+
+#menubtn {
+    visibility: visible;
+    margin-left: 92%;
+    zoom: 2.0;
+}
+
+.menuitems {
+    width: 100%;
+    font-size: 2em;
+}
+
+
+#DesktopM {
+    display: none;
+}
+
+#Mmenu {
+    display: none;
+}
+
+#Phototext {
+    margin-left: 25%;
+    width: 55%;
+    font-size: 1.6em;
+}	
+
+.MH1Text{
+font-size:4em;	
+}
+
+.PMText{
+font-size:2em;
+}	
+
+#TilePosition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 88%;
+}
+
+.MotoImg {
+    padding: 1%;
+}
+	
+#MotoPic{
+height:168px;
+width:240px;	
+}	
+
+#box {
+    height: 197px;
+    overflow: hidden;
+    font-size: 1.4em;
+    border: 3px solid black;
+}
+
+#formBox {
+    width: 60%;
+    height: 500px;
+    zoom: 2.1;
+}	
+
+ul.MotoInfo {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 27%;
+    margin-bottom: 5%;
+    zoom: 2;
+}
+
+#Infobox {
+    font-size: 18px;
+    line-height: 19px;
+    margin-top: 1%;
+	margin-left:2%;
+    padding: 5px 2%;
+    width: 950px;
+    height: 1150px;
+}
+
+#PicM {
+    margin-left: 25%;
+    max-width: 60%;
+    margin-bottom: 3%;
+}
+
+.modeldesc {
+	font-size: 1.6em;
+    margin-right: 0%;
+    display: inline;
+    width: 100%;
+    height: 488px;
+    line-height: 100%;
+}
+
+
+.Stores {
+    text-align: center;
+    width: 55%;
+    margin-left: 15%;
+    margin-top: 2%;
+    background-color: #FFA07A;
+    padding: 4%;
+    border-radius: 4%;
+    font-size: 1.5em;
+}
+
+#map {
+width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 3%;
+    z-index: 0;
+    zoom: 1.5;
+}
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+#logoM{
+zoom:1.7;	
+}
+
+.menuitems{
+margin-top: 2%;	
+}
+
+header{
+height:140px;
+}
+
+#DesktopM{
+font-size:2.5em	
+}
+
+#Phototext {
+    margin-left: 20%;
+    width: 70%;
+    zoom: 2.0;
+}
+
+
+.MotoImg {
+    padding: 1%;
+}
+	
+#MotoPic{
+height:262px;
+width:375px;	
+}	
+
+#TilePosition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 92%;
+}
+
+#box {
+	height: 401px;
+    overflow: hidden;
+    font-size: 2em;
+	margin-bottom: 1%;
+    width: 941px;
+    height: 365px;	
+}
+
+.MotoImg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    height: 400px;
+    width: 330px;
+}
+
+.MH1Text{
+zoom:1.8;	
+}
+.PMText{
+zoom:1.7;
+}
+
+ul.MotoInfo {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 27%;
+    margin-bottom: 5%;
+    zoom: 2;
+}
+
+#Infobox {
+    font-size: 18px;
+    line-height: 19px;
+    margin-top: 1%;
+	margin-left:2%;
+    padding: 5px 2%;
+    width: 950px;
+    height: 138%;
+}
+
+#PicM {
+    margin-left: 20%;
+    max-width: 60%;
+    margin-bottom: 3%;
+    height: 423px;
+    width: 600px;
+}
+
+.modeldesc {
+    font-size: 1.6em;
+    display: inline;
+    margin-right: 0%;
+    width: 100%;
+    height: 458px;
+    line-height: 100%;;
+}
+
+	
+#formBox {
+    width: 60%;
+    height: 500px;
+    zoom: 2.1;
+}	
+	
+.Stores {
+    text-align: center;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #FFA07A;
+    padding: 6%;
+    border-radius: 4%;
+    font-size: 2.5em;
+}	
+	
+#map {
+width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 3%;
+    z-index: 0;
+    zoom: 1.9;
+}	
+	
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)  {
+
+header{
+position:static;
+background-color: black;
+box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+height:200px;
+}
+
+#logoM{
+    zoom: 2.9;
+    background-color: black;
+    width: 100%;		
+	}
+
+#menubtn{
+	visibility:visible;
+	margin-left:84%;
+	zoom:4.0;
+}
+
+#menu{
+  width:100%;
+  margin-top: -7px;
+  position:relative;
+  text-align: -webkit-center;	
+}
+
+.menuitems{
+width:100%;
+font-size: 3em;	
+}
+
+#DesktopM{
+display:none;	
+}
+
+#Phototext {
+    margin-left: 2%;
+    width: 99%;
+    font-size: 3em;
+}
+
+.MH1Text {
+    font-size: 4em;
+}
+
+.PMText {
+    font-size: 3em;
+}
+
+
+#box {
+    font-size: 2em;
+    margin-bottom: 1%;
+    width: 941px;
+    height: 365px;
+}
+
+#TilePosition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+#box{
+	margin-bottom: 5%;
+	height: 10%;
+    height: 1055px;
+    width: 797px;	
+}
+.MotoImg {
+    border: 1px solid black;
+    margin: 1px;
+    height: 420px;
+    padding: 9%;
+}
+
+.Mtext{
+    font-size: 1.5em;	
+}
+
+#MotoPic{
+height:451px;
+width:645px;	
+}
+
+
+ul.MotoInfo {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 28%;
+    margin-bottom: 5%;
+    zoom: 2;
+}
+
+#PicM {
+    margin-left: 15%;
+    max-width: 70%;
+    margin-bottom: 5%;
+}
+
+#Infobox {
+    background-color: #F0E2E0;
+    border: 5px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    padding: 5px 2%;
+    width: 910px;
+    height: 1490px;
+}
+
+.modeldesc {
+    float: right;
+    margin-left: auto;
+    margin-right: 0%;
+    font-size: 1.9em;
+    position: relative;
+    display: inline;
+    width: 905px;
+    height: 600px;
+    background-color: #F3F3F3;
+    border: 1px solid #696969;
+}
+
+#formBox {
+    zoom: 3;
+}
+
+#compass{
+    border: 2px solid red;
+    border-radius: 20%;
+    width:100px;
+	height:100px;	
+}
+
+.Stores {
+    width: 57%;
+    padding: 3%;
+    font-size: 3.2em;
+	    margin-left: 20%;
+}
+
+#map{
+    width: 95%;
+    height: 600px;
+	zoom:2.0	
+}
+
+#MapContent{
+margin-top: 5%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
