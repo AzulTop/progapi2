@@ -38,7 +38,7 @@ main{
     font-family: "myfont";
 	}
 
-	#logoM{
+	.logoM{
     zoom: 3.9;
     background-color: black;
     width: 100%;		
@@ -91,7 +91,7 @@ margin-bottom:2%;
     width: 80%;
 }
 
-#box{
+.box{
 	margin-bottom: 5%;
 	height: 10%;
     height: 1260px;
@@ -108,7 +108,7 @@ margin-bottom:2%;
     font-size: 3.5em;	
 }
 
-#MotoPic{
+.MotoPic{
 height:451px;
 width:645px;	
 }
@@ -261,12 +261,12 @@ font-size:2em;
     padding: 1%;
 }
 	
-#MotoPic{
+.MotoPic{
 height:168px;
 width:240px;	
 }	
 
-#box {
+.box {
     height: 197px;
     overflow: hidden;
     font-size: 1.4em;
@@ -341,7 +341,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 
-#logoM{
+.logoM{
 zoom:1.7;	
 }
 
@@ -368,7 +368,7 @@ font-size:2.5em
     padding: 1%;
 }
 	
-#MotoPic{
+.MotoPic{
 height:262px;
 width:375px;	
 }	
@@ -379,7 +379,7 @@ width:375px;
     width: 92%;
 }
 
-#box {
+.box {
 	height: 401px;
     overflow: hidden;
     font-size: 2em;
@@ -479,7 +479,7 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 height:200px;
 }
 
-#logoM{
+.logoM{
     zoom: 2.9;
     background-color: black;
     width: 100%;		
@@ -522,7 +522,7 @@ display:none;
 }
 
 
-#box {
+.box {
     font-size: 2em;
     margin-bottom: 1%;
     width: 941px;
@@ -535,7 +535,7 @@ display:none;
     width: 80%;
 }
 
-#box{
+.box{
 	margin-bottom: 5%;
 	height: 10%;
     height: 1055px;
@@ -552,7 +552,7 @@ display:none;
     font-size: 1.5em;	
 }
 
-#MotoPic{
+.MotoPic{
 height:451px;
 width:645px;	
 }
