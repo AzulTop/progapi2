@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>E-magazine</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="mobile.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script src="main.js"></script>
+</head>
+<body>
+<main>
+
+<header>
+<div class="centermenu">
+<div id="menubtn" onclick="Showmenu()"></div>
+			<nav>
+						<ul id="DesktopM">
+			  <li class="logoM"><img src="logo.jpg" alt="company logo"></li>
+  <li class="menuitems"><a href="Index.html">Home</a></li>
+  <li class="menuitems"><a href="Blog.html">Blog</a></li>
+  <li class="menuitems"><a href="Emag.html">E-magazine</a></li>
+  <li class="menuitems"><a href="Storelocator.html">Our Stores</a></li>
+</ul>
+			<ul id="Mmenu">
+			  <li class="logoM"><img src="logo.jpg" alt="company logo"></li>
+  <li class="menuitems"><a href="Index.html">Home</a></li>
+  <li class="menuitems"><a href="Blog.html">Blog</a></li>
+  <li class="menuitems"><a href="Emag.html">E-magazine</a></li>
+  <li class="menuitems"><a href="Storelocator.html">Our Stores</a></li>
+</ul>
+</nav>
+
+
+</div>
+</header>
+<h1 style="color: white;"> _</h1>
+<!--Signup Form -->
+<div id="formBox">
+<h2>Subscribe Our Newsletter</h2>
+<p id="EmagpText">Be the first to find out our lastest offers and promotions</p>
+<form action="submit" method="post" style="
+    position:inherit;" id="Newsletterform">
+<div id="required">*indicates required</div> 
+<div class="Details">
+	<label for="email">Email:<span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="EMAIL" class="store" id="email">
+</div>
+<div class="Details">
+	<label for="name">First Name:</label>
+	<input type="text" value="" name="FNAME" class="store" id="name">
+</div>
+<div class="Details">
+	<label for="phoneno">Phone No:</label>
+	<input type="text" name="PhoneNo" class="store" value="" id="phoneno">
+</div>
+<br>
+<div class="NewsletterStyle">
+    <strong>Email Style</strong>
+    <input type="radio" value="HTML" name="HTML" id="chosehtml">HTML
+<input type="radio" value="Plain text" name="Plain" id="choseplain">Plain
+</div>
+<br>
+<table id="choices">
+<tr>
+<td>
+<div class="EngineChoice">
+    <strong>Motorcycle Engine Size </strong>
+	<br>
+    <input type="radio" name="Enginesize" id="S50cc"> 50cc
+  <br>
+  <input type="radio" name="Enginesize" id="S250cc"> 125-250cc
+  <br>
+  <input type="radio" name="Enginesize"  id="S500cc"> 251-500cc
+  <br>
+  <input type="radio" name="Enginesize" id="S600cc"> 501-600cc
+  <br>
+  <input type="radio" name="Enginesize" id="S601cc"> 601cc+ 
+</div>
+</td>
+<td>
+<div id="MotorcycleType">
+<input type="checkbox" name="Mtype"  id="Standard" value="Standard">Standard<br>
+<input type="checkbox" name="Mtype" id="Cruiser" value="Cruiser">Cruiser<br>
+<input type="checkbox" name="Mtype" id="Sport" value="Sport">Sport<br>
+<input type="checkbox" name="Mtype" id="Touring" value="Touring">Touring<br>
+<input type="checkbox" name="Mtype" id="Scooter" value="Scooter">Scooter<br>
+<input type="checkbox" name="Mtype" id="Offroad" value="Off-road">Off-road <br>
+</div>
+</td>
+</tr>
+</table>
+<br>
+    <input type="submit" value="Subscribe" onclick="cleardata()" id="submit">
+	<div id="storefail"></div>
+</form>
+</div>
+
+</main>
+</body>
+</html>
