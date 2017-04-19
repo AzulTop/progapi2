@@ -169,7 +169,7 @@ document.getElementById("Mmenu").style.display = "none";
 function LoopMdata(){
  var req = new XMLHttpRequest();
  
- req.open('get', "https://doc-0o-50-docs.googleusercontent.com/docs/securesc/7ns729cthe8dqlkql5fchc1759phel7s/106n509hf4q98tukes2gt7brf7bpgr7b/1492624800000/07307289063899259800/07307289063899259800/0BwThGjeDgwqDak1nMDcxcGt1dDA?e=download&nonce=01ttjg24dlc2o&user=07307289063899259800&hash=m5q2jnrd3q6j3u2i03rtte4poi03udfq")
+ req.open('get', "https://rawgit.com/AzulTop/progapi2/master/Motocycles.json")
  
  req.onreadystatechange = function(){
 	// Look for the "Complete" state (4)
@@ -199,6 +199,6 @@ function gotResponseText(responseText){
  
  i = 0 
 console.log(i)
-document.getElementById("demo").innerHTML +=
+document.getElementById("PMText").innerHTML +=
 resObj.Bikes[i].Title + " " + resObj.Bikes[i].Description;
 }
