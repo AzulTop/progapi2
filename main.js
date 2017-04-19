@@ -169,7 +169,7 @@ document.getElementById("Mmenu").style.display = "none";
 function LoopMdata(){
  var req = new XMLHttpRequest();
  
- req.open('get', "https://rawgit.com/AzulTop/progapi2/master/Motocycles.json")
+ req.open('get', "https://cdn.rawgit.com/AzulTop/progapi2/93ad6677/Motocycles.json")
  
  req.onreadystatechange = function(){
 	// Look for the "Complete" state (4)
