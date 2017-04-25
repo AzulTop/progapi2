@@ -192,14 +192,10 @@ req.send(null);
 function gotResponseText(responseText){
 	var resObj = JSON.parse(responseText);
 	console.log(resObj);
-} 
- 
- 
- 
- 
- i = 0 
+	 i = 0 
 console.log(i)
 document.getElementById("PMText").innerHTML +=
 resObj.Bikes[i].Title + " " + resObj.Bikes[i].Description;
+} 
 }
  
