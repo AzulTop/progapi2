@@ -1,4 +1,15 @@
-Motodata = '{"Bikes":[' +
-'{"Title":"Herald Classic 250cc Rambler Scrambler ","Description":"With a custom styled design, the Rambler boasts a refined look with distinctive features. Wide bars, tan bench seat and Continental Twin Duro 17″ tyres, enhance the overall experience and riding position. This is a bike with a real presence wherever you choose to take it while discovering new adventures." },' +
-'{"Title":"Kawasaki KR1s 250cc","Description":"With Sport Riding At Its Core, A Powerful 1,043cc Inline Four-cylinder Engine And A Host Of Advanced Onboard Electronics, The Ninja 1000 Embodies Two-wheel Fun" },' +
-'{"Title":"LEXMOTO FMR 125 ","Description":"The FMR sets the standard for Sports Scooters. Available with a 4 stroke motor on both the 50cc and 125cc models, the FMR continues to build on the success of it`s predecessors by offering reliability and ease of use in a package which represents exceptional value. The bike features great handling and race inspired design to compliment the pokey 4t motor and great fuel economy all in one scooter. If you`re looking for a scooter that offers desirable design with performance that`s beyond skin deep then the FMR is a choice you`ll be glad you made" }]}';
+{
+    "Bikes":[{
+            "Title":"Herald Classic 250cc Rambler Scrambler",
+            "Description":"With a custom styled design, the Rambler boasts a refined look with distinctive features. Wide bars, tan bench seat and Continental Twin Duro 17″ tyres, enhance the overall experience and riding position. This is a bike with a real presence wherever you choose to take it while discovering new adventures."
+        },
+        {
+            "Title":"Kawasaki KR1s 250cc",
+            "Description":"With Sport Riding At Its Core, A Powerful 1,043cc Inline Four-cylinder Engine And A Host Of Advanced Onboard Electronics, The Ninja 1000 Embodies Two-wheel Fun"
+        },
+        {
+            "Title":"LEXMOTO FMR 125cc ",
+            "Description":"The FMR sets the standard for Sports Scooters. Available with a 4 stroke motor on both the 50cc and 125cc models, the FMR continues to build on the success of it`s predecessors by offering reliability and ease of use in a package which represents exceptional value. The bike features great handling and race inspired design to compliment the pokey 4t motor and great fuel economy all in one scooter. If you`re looking for a scooter that offers desirable design with performance that`s beyond skin deep then the FMR is a choice you`ll be glad you made"
+        }
+    ]
+}
