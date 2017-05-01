@@ -194,8 +194,8 @@ function gotResponseText(responseText){
 	console.log(resObj);
      	    setTimeout(function(){ 		
 		document.getElementById("PMText").innerHTML 
-		+= resObj.Bikes[[Math.floor(Math.random() * 4)]].Title + 
-		" " + resObj.Bikes[[Math.floor(Math.random() * 4)]].Description;}, 1000);	
+		+= resObj.Bikes[[Math.floor(Math.random() * 3)]].Title + 
+		" " + resObj.Bikes[[Math.floor(Math.random() * 3)]].Description;}, 1000);	
 
 	    }
  
