@@ -192,9 +192,14 @@ req.send(null);
 function gotResponseText(responseText){
 	var resObj = JSON.parse(responseText);
 	console.log(resObj);
-    setTimeout(function(){ 		i = 0;
-		console.log(i);
-		document.getElementById("PMText").innerHTML += resObj.Bikes[i].Title + " " + resObj.Bikes[i].Description;}, 3000);
-} 
+    setTimeout(function(){ 		
+	  
+	    for(i=0;i<resObj.length<i++){
+		    		console.log(i);
+		document.getElementById("PMText").innerHTML 
+		+= resObj.Bikes[i].Title + " " + resObj.Bikes[i].Description;}, 3000);
+		}
+	    }
+ 
 }
  
