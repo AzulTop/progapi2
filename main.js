@@ -194,7 +194,7 @@ function gotResponseText(responseText){
 	console.log(resObj);
      		
 	  
-	    for(i=0;i<resObj.length<i++){
+	    for(i=0;i<resObj.length;i++){
 		setTimeout(function(){    		
 		console.log(i);
 		document.getElementById("PMText").innerHTML 
