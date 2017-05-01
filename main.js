@@ -192,7 +192,7 @@ req.send(null);
 function gotResponseText(responseText){
 	var resObj = JSON.parse(responseText);
 	console.log(resObj);
-    setInterval(function(){ 		i = 0;
+    setTimeout(function(){ 		i = 0;
 		console.log(i);
 		document.getElementById("PMText").innerHTML += resObj.Bikes[i].Title + " " + resObj.Bikes[i].Description;}, 3000);
 } 
