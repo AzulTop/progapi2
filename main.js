@@ -192,14 +192,11 @@ req.send(null);
 function gotResponseText(responseText){
 	var resObj = JSON.parse(responseText);
 	console.log(resObj);
-     		
-	  
-	    for(i=0;i<resObj.length;i++){
-		setTimeout(function(){    		
-		console.log(i);
+     	    setTimeout(function(){ 		
 		document.getElementById("PMText").innerHTML 
-		+= resObj.Bikes[i].Title + " " + resObj.Bikes[i].Description;}, 3000);
-		}
+		+= resObj.Bikes[[Math.floor(Math.random() * 4)]].Title + 
+		" " + resObj.Bikes[[Math.floor(Math.random() * 4)]].Description;}, 1000);	
+
 	    }
  
 }
