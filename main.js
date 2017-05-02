@@ -36,24 +36,25 @@ localStorage.setItem("Offroad", ChoseOffroad)
 ; }, 6000);
 
 function load() {
-var storedEmail = localStorage.email
-var storedName = localStorage.name
-var storedNo = localStorage.phone
-var styleop = localStorage.html
-var styleop2 = localStorage.plain
-var Engchoice = localStorage.S50cc
-var Engchoice2 = localStorage.S250cc
-var Engchoice3 = localStorage.S500cc
-var Engchoice4 = localStorage.S600cc
-var Engchoice5 = localStorage.S601cc
-var StandardT = localStorage.Standard
-var CruiserT = localStorage.Cruiser
-var SportT = localStorage.Sport
-var TouringT = localStorage.Touring
-var ScooterT = localStorage.Scooter
-var OffroadT = localStorage.Offroad
+const storedEmail = localStorage.getItem('email')
+const storedName = localStorage.getItem('name')
+var storedNo = localStorage.getItem('phone')
+var styleop = localStorage.getItem('chosehtml')
+var styleop2 = localStorage.getItem('choseplain')
+var Engchoice = localStorage.getItem('S50cc')
+var Engchoice2 = localStorage.getItem('S250cc')
+var Engchoice3 = localStorage.getItem('S500cc')
+var Engchoice4 = localStorage.getItem('S600cc')
+var Engchoice5 = localStorage.getItem('S601cc')
+var StandardT = localStorage.getItem('Standard')
+var CruiserT = localStorage.getItem('Cruiser')
+var SportT = localStorage.getItem('Sport')
+var TouringT = localStorage.getItem('Touring')
+var ScooterT = localStorage.getItem('Scooter')
+var OffroadT = localStorage.getItem('Offroad')
 
-if(storedEmail,storedName,storedNo,styleop,styleop2,petchoice,petchoice2,petchoice3,petchoice4,petchoice5){
+if(storedEmail,storedName,storedNo,styleop,styleop2,Engchoice,
+   Engchoice2,Engchoice3,Engchoice4,Engchoice5,StandardT,CruiserT,SportT,TouringT,ScooterT,OffroadT){
 document.getElementById("email").value = storedEmail
 document.getElementById("name").value = storedName
 document.getElementById("phoneno").value = storedNo
