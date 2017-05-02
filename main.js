@@ -192,12 +192,20 @@ req.send(null);
 function gotResponseText(responseText){
 	var resObj = JSON.parse(responseText);
 	console.log(resObj);
+
      	    setTimeout(function(){ 		
 		document.getElementById("PMText").innerHTML 
 		+= resObj.Bikes[[Math.floor(Math.random() * 3)]].Title + 
 		" " + resObj.Bikes[[Math.floor(Math.random() * 3)]].Description;}, 1000);	
-
+	localStorage.setItem("Title", JSON.stringify(resObj.Bikes[[Math.floor(Math.random() * 3)]].Title));
+	localStorage.setItem("Description", JSON.stringify(resObj.Bikes[[Math.floor(Math.random() * 3)]].Description));
 	    }
  
+}
+
+function Getparagraph(){
+const Title = localStorage.getItem('Title')
+const Desc = localStorage.getItem('Description')
+document.getElementById("PMText").innerHTML = Title + Desc;
 }
  
