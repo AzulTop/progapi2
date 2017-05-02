@@ -204,8 +204,10 @@ function gotResponseText(responseText){
 }
 
 function Getparagraph(){
-const Title = localStorage.getItem('Title')
-const Desc = localStorage.getItem('Description')
+const strTitle = localStorage.getItem('Title')
+const strDesc = localStorage.getItem('Description')
+const Title = JSON.parse(strTitle)
+const Desc = JSON.parse(strDesc)
 document.getElementById("PMText").innerHTML = Title + Desc;
 }
  
