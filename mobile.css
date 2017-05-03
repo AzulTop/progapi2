@@ -1,4 +1,7 @@
-@media screen and (max-device-width:480px) {
+@media screen 
+	and (min-device-width:360px) 
+	and (max-device-width:640px)
+	and (orientation : portrait) {
 header{
 position:static;
 background-color: black;
@@ -231,7 +234,10 @@ margin-top: 5%;
 
 }
 
-@media screen and (min-device-width:500px) and (max-device-width: 640px) {
+@media screen 
+	and (min-device-width:360px) 
+	and (max-device-width:640px)
+	and (orientation : landscape) {
 
 header{
 position:static;
