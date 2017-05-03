@@ -1,5 +1,6 @@
+
 @media screen 
-	and (min-device-width:360px) 
+	and (min-device-width:320px) 
 	and (max-device-width:640px)
 	and (orientation : portrait) {
 header{
@@ -120,10 +121,21 @@ width:645px;
 font-size: 7em;	
 }
 
+#BLTitle{
+font-size:3.1em;
+}
 .PMText{
-	font-size: 2em;	
+	font-size: 3.1em;
+	height: 550px;
 }
 
+#Blogbtn{
+zoom: 6;
+margin-right: 30%;
+margin-left: 30%;
+margin-bottom: 2%;
+}
+		
 #formBox {
     zoom: 3.0;
 }
@@ -169,12 +181,11 @@ margin-left:10%;
 
 #Infobox {
     font-size: 18px;
-    line-height: 54px;
     margin-top: 20px;
     margin-left: 2%;
     padding: 5px 2%;
     width: 92%;
-    height: 156%;
+    height: 178%;
 }
 
 ul.MotoInfo {
@@ -191,9 +202,10 @@ ul.MotoInfo {
 
 .modeldesc {
     font-size: 3.9em;
-    height: 1772px;
-	width: 860px;
-	margin-right: 2%;
+    height: 1830px;
+    line-height: 56px;
+    width: 872px;
+    margin-right: 2%;
 }
 
 .NewsletterStyle{
@@ -283,10 +295,21 @@ width: 105%;
 font-size:4em;	
 }
 
-.PMText{
+#PMText{
 font-size:2em;
 }	
 
+#BLTitle{
+font-size:3.1em;
+}
+
+#Blogbtn{
+zoom: 4;
+margin-right: 37%;
+margin-left: 37%;
+margin-bottom: 2%;
+}
+		
 #TilePosition {
     margin-right: auto;
     margin-left: auto;
@@ -348,6 +371,14 @@ ul.MotoInfo {
     line-height: 100%;
 }
 
+#compass {
+    border: 2px solid red;
+    border-radius: 20%;
+    margin: 1%;
+    width: 100px;
+    height: 100px;
+}
+		
 
 .Stores {
     text-align: center;
