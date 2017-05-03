@@ -1,6 +1,6 @@
 console.log("This is the site javascript")
 setTimeout(function() {
-var emailval = document.getElementById("email").value
+let emailval = document.getElementById("email").value
  name = document.getElementById("name").value,
  phone = document.getElementById("phoneno").value,
  op1 = document.getElementById("chosehtml").checked,
@@ -38,20 +38,20 @@ localStorage.setItem("Offroad", ChoseOffroad)
 function load() {
 const storedEmail = localStorage.getItem('email')
 const storedName = localStorage.getItem('name')
-var storedNo = localStorage.getItem('phone')
-var styleop = localStorage.getItem('chosehtml')
-var styleop2 = localStorage.getItem('choseplain')
-var Engchoice = localStorage.getItem('S50cc')
-var Engchoice2 = localStorage.getItem('S250cc')
-var Engchoice3 = localStorage.getItem('S500cc')
-var Engchoice4 = localStorage.getItem('S600cc')
-var Engchoice5 = localStorage.getItem('S601cc')
-var StandardT = localStorage.getItem('Standard')
-var CruiserT = localStorage.getItem('Cruiser')
-var SportT = localStorage.getItem('Sport')
-var TouringT = localStorage.getItem('Touring')
-var ScooterT = localStorage.getItem('Scooter')
-var OffroadT = localStorage.getItem('Offroad')
+const storedNo = localStorage.getItem('phone')
+const styleop = localStorage.getItem('chosehtml')
+const styleop2 = localStorage.getItem('choseplain')
+const Engchoice = localStorage.getItem('S50cc')
+const Engchoice2 = localStorage.getItem('S250cc')
+const Engchoice3 = localStorage.getItem('S500cc')
+const Engchoice4 = localStorage.getItem('S600cc')
+const Engchoice5 = localStorage.getItem('S601cc')
+const StandardT = localStorage.getItem('Standard')
+const CruiserT = localStorage.getItem('Cruiser')
+const SportT = localStorage.getItem('Sport')
+const TouringT = localStorage.getItem('Touring')
+const ScooterT = localStorage.getItem('Scooter')
+const OffroadT = localStorage.getItem('Offroad')
 
 if(storedEmail,storedName,storedNo,styleop,styleop2,Engchoice,
    Engchoice2,Engchoice3,Engchoice4,Engchoice5,StandardT,CruiserT,SportT,TouringT,ScooterT,OffroadT){
@@ -93,20 +93,20 @@ function initMap() {
           center: defaultpos
         });
 
-        var marker = new google.maps.Marker({
+        const marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
           title: 'Hello World!'
         });
 		
-		        var marker2= new google.maps.Marker({
+		        const marker2= new google.maps.Marker({
           position: myLatLng2,
           map: map,
           title: 'Hello World!'
         });
      
 		
-	    var marker3= new google.maps.Marker({
+	    const marker3= new google.maps.Marker({
           position: myLatLng3,
           map: map,
           title: 'Hello World!'
@@ -117,16 +117,16 @@ function initMap() {
 	  
         // HTML5 geolocation.
 		function GetPoS() {
-        var map = new google.maps.Map(document.getElementById('map'), {
+        let map = new google.maps.Map(document.getElementById('map'), {
           center: {lat:52.9046891,lng:-2.1505637},
           zoom: 6
         });
-        var infoWindow = new google.maps.InfoWindow({map: map});
+        const infoWindow = new google.maps.InfoWindow({map: map});
 
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
+            let pos = {
               lat: position.coords.latitude,
               lng: position.coords.longitude
             };
@@ -167,8 +167,9 @@ document.getElementById("Mmenu").style.display = "none";
 }
 }
 
+//This function retrives a Title & Description from the JSON file
 function LoopMdata(){
- var req = new XMLHttpRequest();
+ const req = new XMLHttpRequest();
  
  req.open('get', "https://cdn.rawgit.com/AzulTop/progapi2/24b8cd38/Motocycles.json")
  
@@ -191,7 +192,7 @@ req.send(null);
 // Parse Response – called in the 
 // event handler for readystatechange
 function gotResponseText(responseText){
-	var resObj = JSON.parse(responseText);
+	let resObj = JSON.parse(responseText);
 	console.log(resObj);
 
      	    setTimeout(function(){ 		
@@ -204,6 +205,7 @@ function gotResponseText(responseText){
  
 }
 
+//This function puts Title & Description from the JSON array into the HTML
 function Getparagraph(){
 const strTitle = localStorage.getItem('Title')
 const strDesc = localStorage.getItem('Description')
