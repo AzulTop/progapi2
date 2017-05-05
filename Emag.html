@@ -9,7 +9,7 @@
 <link rel="shortcut icon" href="https://rawgit.com/AzulTop/progapi2/master/favicon.ico" type="image/x-icon" />
 <script src="https://cdn.rawgit.com/AzulTop/progapi2/a510eb27/main.js"></script>
 </head>
-<body onload="load()">
+<body>
 <main>
 
 <header>
@@ -46,15 +46,15 @@
 <div class="Details">
 	<label for="email">Email:<span class="asterisk">*</span>
 </label>
-	<input type="text" value="" name="EMAIL" class="store" id="email">
+	<input type="text" value="" name="EMAIL" type="email" class="store" id="email" required>
 </div>
 <div class="Details">
 	<label for="name">First Name:</label>
-	<input type="text" value="" name="FNAME" class="store" id="name">
+	<input type="text" value="" name="FNAME" type="text" class="store" id="name" required>
 </div>
 <div class="Details">
 	<label for="phoneno">Phone No:</label>
-	<input type="text" name="PhoneNo" class="store" value="" id="phoneno">
+	<input type="number" min="11" name="PhoneNo" class="store" id="phoneno">
 </div>
 <br>
 <div class="NewsletterStyle">
