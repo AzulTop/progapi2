@@ -36,22 +36,22 @@ localStorage.setItem("Offroad", ChoseOffroad)
 ; }, 6000);
 
 function load() {
-const storedEmail = localStorage.getItem('email')
-const storedName = localStorage.getItem('name')
-const storedNo = localStorage.getItem('phone')
-const styleop = localStorage.getItem('chosehtml')
-const styleop2 = localStorage.getItem('choseplain')
-const Engchoice = localStorage.getItem('S50cc')
-const Engchoice2 = localStorage.getItem('S250cc')
-const Engchoice3 = localStorage.getItem('S500cc')
-const Engchoice4 = localStorage.getItem('S600cc')
-const Engchoice5 = localStorage.getItem('S601cc')
-const StandardT = localStorage.getItem('Standard')
-const CruiserT = localStorage.getItem('Cruiser')
-const SportT = localStorage.getItem('Sport')
-const TouringT = localStorage.getItem('Touring')
-const ScooterT = localStorage.getItem('Scooter')
-const OffroadT = localStorage.getItem('Offroad')
+const storedEmail = localStorage.getItem("email")
+const storedName = localStorage.getItem("name")
+const storedNo = localStorage.getItem("phone")
+const styleop = localStorage.getItem("chosehtml")
+const styleop2 = localStorage.getItem("choseplain")
+const Engchoice = localStorage.getItem("S50cc")
+const Engchoice2 = localStorage.getItem("S250cc")
+const Engchoice3 = localStorage.getItem("S500cc")
+const Engchoice4 = localStorage.getItem("S600cc")
+const Engchoice5 = localStorage.getItem("S601cc")
+const StandardT = localStorage.getItem("Standard")
+const CruiserT = localStorage.getItem("Cruiser")
+const SportT = localStorage.getItem("Sport")
+const TouringT = localStorage.getItem("Touring")
+const ScooterT = localStorage.getItem("Scooter")
+const OffroadT = localStorage.getItem("Offroad")
 
 if(storedEmail,storedName,storedNo,styleop,styleop2,Engchoice,
    Engchoice2,Engchoice3,Engchoice4,Engchoice5,StandardT,CruiserT,SportT,TouringT,ScooterT,OffroadT){
@@ -85,10 +85,10 @@ window.localStorage.clear();
 
         const myLatLng = {lat:52.9029218,lng:-1.8870629};
         const myLatLng2 = {lat:52.9866342,lng:-2.2034458};
-		const myLatLng3 = {lat:53.0807631,lng:-2.4435213};
+	    const myLatLng3 = {lat:53.0807631,lng:-2.4435213};
 function initMap() {
 	    const defaultpos = {lat:53.0002046,lng:-2.1587255};
-        var map = new google.maps.Map(document.getElementById('map'), {
+        let map = new google.maps.Map(document.getElementById("map"), {
           zoom: 10,
           center: defaultpos
         });
@@ -96,20 +96,20 @@ function initMap() {
         const marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'Hello World!'
+          title: "Uttoxeter"
         });
 		
 		        const marker2= new google.maps.Marker({
           position: myLatLng2,
           map: map,
-          title: 'Hello World!'
+          title: "Stoke-on-Trent"
         });
      
 		
 	    const marker3= new google.maps.Marker({
           position: myLatLng3,
           map: map,
-          title: 'Hello World!'
+          title: "Crewe"
         });
 		
 		
@@ -123,7 +123,7 @@ function initMap() {
         });
         const infoWindow = new google.maps.InfoWindow({map: map});
 
-        // Try HTML5 geolocation.
+        // Try to find user's point with Geolocation
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
             let pos = {
@@ -132,7 +132,7 @@ function initMap() {
             };
 
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
+            infoWindow.setContent("Location found.");
             map.setCenter(pos);
            }, function() {
             handleLocationError(true, infoWindow, map.getCenter());
@@ -146,12 +146,12 @@ function initMap() {
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
+                              "Error: The Geolocation service failed." :
+                              "Error: Your browser doesn\'t support geolocation.");
       }
-
-	  function CloserMark(){
-		  
+	  
+	  //This will show the closest store the user's location
+	  function CloserMark(){  
 		  
 	  }
 
@@ -213,4 +213,3 @@ const Title = JSON.parse(strTitle)
 const Desc = JSON.parse(strDesc)
 document.getElementById("PMText").innerHTML = Title + Desc;
 }
- 
